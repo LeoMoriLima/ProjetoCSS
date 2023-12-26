@@ -1,0 +1,296 @@
+body{
+    background-color: #23263A;
+    display: grid;
+    grid-template-areas: "header""main""section1""section2";
+    grid-template-rows: auto;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#212336 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    grid-area: header;
+}
+
+header div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 32px;
+    place-self: center;
+}
+
+header div a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header div span{
+    color: #FF4B58;
+}
+
+header div a:hover{
+    color: #FF4B58;
+}
+
+header div span:hover{
+    color: #FFFFFF;
+}
+
+
+header nav{
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+header nav a{
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav a:hover{
+    color: #FF4B58;
+}
+
+main{
+    grid-area: main;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+main h1{
+    font-size: 56px;
+}
+
+main p{
+    width: 50%;
+}
+
+main button{
+    width: 150px;
+    padding: 15px;
+    border: 1px solid #FF4A57;
+    color: white;
+    background-color: #FF4A57;
+    transition: all 0.3s ease-out;
+}
+
+main button:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #FF4A57;
+    color: #FF4A57;
+}
+
+main{
+    margin-bottom: 15%;
+}
+
+.servicos{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    grid-area: section1;
+}
+
+.servicos h3{
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+
+.servicos h1{
+    margin-left: 10%;
+    color: #FF4A57;
+    font-size: 56px;
+    margin-top: 0%;
+}
+
+.servicos h1 span{
+    border-bottom: 5px solid #FF4A57;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    align-self: start;
+    margin-left: 9%;
+    text-align: center;
+
+    
+
+}
+
+.box{
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    transition: all 0.5s ease-out;
+}
+#box1{
+    background-color: #2B2D41;
+}
+
+#box1:hover{
+    background-color: #FF4A57;
+}
+
+#box2{
+    background-color: #2B2D41;
+}
+
+#box2:hover{
+    background-color: #FF4A57;
+}
+
+#box3{
+    background-color: #2B2D41;
+}
+
+#box3:hover{
+    background-color: #FF4A57;
+}
+
+#box4{
+    background-color: #2B2D41;
+}
+
+#box4:hover{
+    background-color: #FF4A57;
+}
+
+#box5{
+    background-color: #2B2D41;
+}
+
+#box5:hover{
+    background-color: #FF4A57;
+}
+
+#box6{
+    background-color: #2B2D41;
+}
+
+#box6:hover{
+    background-color: #FF4A57;
+}
+
+.conecte{
+    margin-top: -10%;
+    grid-area: section2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.conecte h1{
+    color: #FF4A57;
+    font-size: 56px;
+    margin-left: 10%;
+}
+
+.conecte form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+
+}
+
+#email{
+    max-width: 15%;
+    background-color: #282A41;
+    border: none;
+    padding: 0.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#mensagem{
+    max-width: 15%;
+    background-color: #2B2D41;
+    border: none;
+    padding: 0.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.conecte form button{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7%;
+    margin-top: 2%;
+    width: 150px;
+    padding: 15px;
+    border: 1px solid #FF4A57;
+    color: #1C1E31;
+    background-color: #FF4A57;
+    transition: all 0.3s ease-out;
+}
+
+.conecte form button:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #FF4A57;
+    color: #FF4A57;
+}
+
+
+@media screen and (max-width:768px){
+    header {
+        grid-template-columns: 1fr;
+    }
+    
+    header nav{
+        width: 100%;
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    main {
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    main h1{
+        font-size: 36px;
+    }
+
+    main p{
+        width: 100%;
+    }
+
+    .container{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+    }
+
+    .box{
+        width: 200px;
+        height: auto
+    }
+
+    .conecte h1{
+        margin-top: 5rem;
+        font-size: 36px;
+    }
+
+    .conecte form #email, .conecte form #mensagem{
+        max-width: 20rem;
+    }
+}

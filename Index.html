@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olá! Sou Leonardo Mori, desenvolvedor web, e esta é a minha página de portfolio. Aqui você encontrará exemplos dos meus trabalhos, informações sobre meus serviços de desenvolvimento web e como entrar em contato para solicitar um orçamento. Saiba mais sobre mim e meu trabalho como desenvolvedor web.">
+    <meta name="keywords" content="Desenvolvedor web, Desenvolvimento de sites, Portfolio, Contato, Orçamento, Front-end, back-end, HTML, CSS, JavaScript, Projetos web, Desenvolvimento Responsivo, Freelancer, Leonardo Mori">
+    <meta property="og:title" content="Mori.">
+    <meta property="og:description" content="Olá! Sou Leonardo Mori, desenvolvedor web, e esta é a minha página de portfolio. Aqui você encontrará exemplos dos meus trabalhos, informações sobre meus serviços de desenvolvimento web e como entrar em contato para solicitar um orçamento. Saiba mais sobre mim e meu trabalho como desenvolvedor web.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="http://127.0.0.1:5500/Index.html">
+    <meta property="og:image" content="Image/OG-Image.PNG">
+    <meta property="og:site_name" content="Mori. Desenvolvedor Web">
+    <title>Mori.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="icon" href="Image/letter-m.png" type="image/png">
+</head>
+<body>
+    
+    <header id="inicio">
+        <h1>Mo<span>ri.</span></h1>
+        <button id="open">≡</button>
+        <nav id="menu">
+            <button id="close">✕</button>
+            <a href="#">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#servico">Serviços</a>
+            <a href="#">Blog</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Olá</h2>
+        <h1>Sou <span>Leonardo Mori.</span></h1>
+        <p>Desenvolvedor WEB</p>
+        <a href="#about">
+        <button>Sobre mim</button></a>
+    </main>
+
+    <article class="servico">
+        <h2>Serviços</h2>
+        <div class="box">
+            <div id="uibox">
+                <h2>UI & UX Design</h2>
+                <p>Oferecemos design de interfaces atraentes e funcionais (UI) combinado com uma experiência de usuário (UX) intuitiva e gratificante, proporcionando produtos digitais que encantam e fidelizam os usuários.</p>
+            </div>
+            <div id="graphbox">
+                <h2>Design Gráfico</h2>
+                <p>Nosso design gráfico envolve a criação de elementos visuais impactantes e coerentes, transmitindo mensagens claras e envolventes para promover marcas de forma memorável e cativante.</p>
+            </div>
+            <div id="webbox">
+                <h2>Web Design</h2>
+                <p>Nosso web design une criatividade e funcionalidade, criando interfaces visualmente atraentes e intuitivas para proporcionar experiências online envolventes e acessíveis aos usuários.</p>
+            </div>
+        </div>
+    </article>
+    
+    
+    <article class="portifolio">
+        <h2>Meu Portifólio</h2>
+        <div id="imagens">
+            <a href="Links/amogoe.html">
+                <img src="Image/Portf-1.PNG" width="100%" height="auto" id="img1">
+            </a>
+            <a href="Links/Hoax.html">
+                <img src="Image/Portf-2.PNG" width="100%" height="auto" id="img2">
+            </a>
+            <a href="Links/Site_vermelho.html">
+                <img src="Image/Portf-3.PNG" width="100%" height="auto" id="img3">
+            </a>
+            <a href="Links/Site_branco.html">
+                <img src="Image/Portf-4.PNG" width="100%" height="auto" id="img4">
+            </a>
+         </div>
+        </article>
+    
+    <article class="about" id="about">
+        <h2>Sobre mim</h2>
+        <h1>Eu sou um aspirante a <span>Desenvolvedor</span></h1>
+        <p>Olá! Sou Leonardo Mori, um entusiasta da tecnologia 
+            e apaixonado por desenvolvimento web. 
+            Minha jornada começou na renomada Alpha Ed/Tech, 
+            onde mergulhei no mundo do desenvolvimento de software.</p>
+    </article>
+
+    <article class="contato">
+        <h2>Faça o seu orçamento agora!</h2>        
+        <form>    
+                <input type="email" id="email" placeholder="E-mail"><br>
+                <input type="text" id="name" placeholder="Seu Nome">
+        </form>
+        <button>Enviar</button>
+    </article>
+
+    <footer>
+        <h1>Mori.</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Blog</a>
+        </nav>
+        <p>&copy; Todos os direitos reservados a Leonardo Mori, 2023</p>
+    </footer>
+    <script src="Script/index.js"></script>
+</body>
+</html>
