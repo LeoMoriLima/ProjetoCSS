@@ -291,6 +291,7 @@ article{
 
 #uibox:hover p{
     display: block;
+    color: var(--cor-header);
 }
 
 #graphbox:hover{
@@ -301,6 +302,7 @@ article{
 
 #graphbox:hover p{
     display: block;
+    color: var(--cor-header);
 }
 
 #webbox:hover{
@@ -311,6 +313,7 @@ article{
 
 #webbox:hover p{
     display: block;
+    color: var(--cor-header);
 }
 
 .portifolio{
@@ -399,6 +402,8 @@ article{
     margin-left: 10%;
     margin-bottom: 1%;
     border-radius: 8px;
+    color: var(--cor-texto-geral);
+    font-family: var(--fonte-geral);
 }
 
 .contato button{
@@ -417,7 +422,7 @@ article{
 }
 
 .contato button:hover{
-    background-color: #394f49;
+    background-color: var(--cor-rodape);
     color: var(--cor-texto-hover);
 }
 
