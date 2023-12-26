@@ -109,8 +109,13 @@ header nav a:hover{
     color: var(--cor-texto-hover);
 }
 
+#menu {
+    height: 100vh;
+}
+
 #menu a{
     margin: 20%;
+    margin-bottom: 10%;
     text-decoration: none;
     color: var(--cor-texto-geral);
     text-align: center;
@@ -211,11 +216,13 @@ article{
 }
 
 #uibox h2{
+    margin-top: 30%;
     font-size: 1em;
     color: var(--cor-branca);
 }
 
 #uibox p{
+    display: none;
     font-size: 0.8em;
     max-width: 100%;
     max-height: 100%;
@@ -234,11 +241,13 @@ article{
 }
 
 #graphbox h2{
+    margin-top: 30%;
     font-size: 1em;
     color: var(--cor-branca);
 }
 
 #graphbox p{
+    display: none;
     font-size: 0.8em;
     max-width: 100%;
     max-height: 100%;
@@ -257,11 +266,13 @@ article{
 }
 
 #webbox h2{
+    margin-top: 40%;
     font-size: 1em;
     color: var(--cor-branca);
 }
 
 #webbox p{
+    display: none;
     font-size: 0.8em;
     max-width: 100%;
     max-height: 100%;
@@ -274,16 +285,28 @@ article{
     color: var(--cor-texto-hover);
 }
 
+#uibox:hover p{
+    display: block;
+}
+
 #graphbox:hover{
     height: 350px;
     background-color: var(--cor-fundo-geral);
     color: var(--cor-texto-hover);
 }
 
+#graphbox:hover p{
+    display: block;
+}
+
 #webbox:hover{
     height: 350px;
     background-color: var(--cor-fundo-geral);
     color: var(--cor-texto-hover);
+}
+
+#webbox:hover p{
+    display: block;
 }
 
 .portifolio{
@@ -332,12 +355,14 @@ article{
     font-weight: bold;
     margin-left: 10%;
     color: #777;
+    margin-right: 10%;
 }
 
 .about h1{
     font-size: 2em;
     color: #525252;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 .about h1 span{
@@ -423,6 +448,10 @@ footer p{
 }
 
 @media (min-width: 768px){
+    html{
+        scroll-behavior: smooth;
+    }
+
     main button {
     padding-left: 1%;
     padding-top: 0.8%;
@@ -448,6 +477,10 @@ footer p{
         width: 250px;
         height: 250px;
         font-size: 1.5em;
+    }
+
+    #uibox h2, #graphbox h2{
+        margin-top: 40%;
     }
 
 
