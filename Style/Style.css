@@ -85,7 +85,7 @@ header nav{
     text-decoration: none;
     margin: 3%;
     color: var(--cor-texto-geral);
-    background-color: var(--cor-fundo-geral);
+    background-color: var(--cor-header);
 }
 
 
@@ -174,10 +174,11 @@ main button{
     padding-right: 5%;
     padding-bottom: 4%;
     background-color: var(--cor-fundo-geral);
-    color: var(--cor-texto-geral);
+    color: var(--cor-header);
     transition: all 0.3s ease;
     margin-bottom: 5%;
     cursor: pointer;
+    border-radius: 5%;
 }
 
 main button:hover{
@@ -213,6 +214,7 @@ article{
     margin: 2%;
     transition: all 0.5s ease;
     padding: 1%;
+    border-radius: 2%;
 }
 
 #uibox h2{
@@ -238,6 +240,7 @@ article{
     margin: 2%;
     transition: all 0.5s ease;
     padding: 1%;
+    border-radius: 2%;
 }
 
 #graphbox h2{
@@ -263,6 +266,7 @@ article{
     margin: 2%;
     transition: all 0.5s ease;
     padding: 1%;
+    border-radius: 2%;
 }
 
 #webbox h2{
@@ -405,10 +409,11 @@ article{
     padding-right: 5%;
     padding-bottom: 4%;
     background-color: var(--cor-fundo-geral);
-    color: var(--cor-texto-geral);
+    color: var(--cor-header);
     transition: all 0.3s ease;
     margin-bottom: 1%;
     cursor: pointer;
+    border-radius: 5%;
 }
 
 .contato button:hover{
