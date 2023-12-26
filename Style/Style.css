@@ -452,6 +452,10 @@ footer p{
         scroll-behavior: smooth;
     }
 
+    #menu{
+        height: auto;
+    }
+
     main button {
     padding-left: 1%;
     padding-top: 0.8%;
@@ -548,14 +552,14 @@ footer p{
     }
 }
 
-@media (min-width: 3840px){
+@media (min-width: 2230px){
 
     header h1{
         font-size: 7em;
     }
 
     #menu a{
-        font-size: 3.7em;
+        font-size: 3.7em
     }
 
     main h2{
