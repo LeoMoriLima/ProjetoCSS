@@ -1,12 +1,12 @@
 :root{
     --fonte-geral: 'Roboto', sans-serif;
-    --cor-texto-geral: #f4fdaf;
+    --cor-texto-geral: #ACE4AA;
     --fonte-menu:'Raleway', sans-serif;
     --fonte-rodapé:'Inconsolata', monospace;
-    --cor-header: #394f49;
-    --cor-rodape: #65743a;
-    --cor-fundo-geral: #330f0a;
-    --cor-texto-hover: #efdd8d;
+    --cor-header: #0D1F2D;
+    --cor-rodape: #546A7B;
+    --cor-fundo-geral: #9EA3B0;
+    --cor-texto-hover: #D8FFDD;
     --cor-branca: #f6f6f6;
     --cor-preto: #333;
 
@@ -60,11 +60,11 @@ header h1{
 }
 
 header h1 span{
-    color: #efdd8d;
+    color: var(--cor-texto-hover);
 }
 
 header h1:hover{
-    color: #efdd8d;
+    color: var(--cor-texto-hover);
     
 }
 
@@ -125,7 +125,7 @@ header nav a:hover{
     display: none;
     cursor: pointer;
     border: none;
-    color: white;
+    color: var(--cor-branca);
     background-color: transparent;
     justify-content: right;
     font-size: 2em;
