@@ -1,12 +1,12 @@
 :root{
     --fonte-geral: 'Roboto', sans-serif;
-    --cor-texto-geral: #ACE4AA;
+    --cor-texto-geral: #A4161A;
     --fonte-menu:'Raleway', sans-serif;
     --fonte-rodapé:'Inconsolata', monospace;
-    --cor-header: #0D1F2D;
-    --cor-rodape: #546A7B;
-    --cor-fundo-geral: #9EA3B0;
-    --cor-texto-hover: #D8FFDD;
+    --cor-header: #161A1D;
+    --cor-rodape: #0B090A;
+    --cor-fundo-geral: #660708;
+    --cor-texto-hover: #E5383B;
     --cor-branca: #f6f6f6;
     --cor-preto: #333;
 
@@ -174,7 +174,7 @@ main button{
     padding-right: 5%;
     padding-bottom: 4%;
     background-color: var(--cor-fundo-geral);
-    color: var(--cor-header);
+    color: var(--cor-branca);
     transition: all 0.3s ease;
     margin-bottom: 5%;
     cursor: pointer;
@@ -291,7 +291,7 @@ article{
 
 #uibox:hover p{
     display: block;
-    color: var(--cor-header);
+    color: var(--cor-branca);
 }
 
 #graphbox:hover{
@@ -302,7 +302,7 @@ article{
 
 #graphbox:hover p{
     display: block;
-    color: var(--cor-header);
+    color: var(--cor-branca);
 }
 
 #webbox:hover{
@@ -313,7 +313,7 @@ article{
 
 #webbox:hover p{
     display: block;
-    color: var(--cor-header);
+    color: var(--cor-branca);
 }
 
 .portifolio{
@@ -414,7 +414,7 @@ article{
     padding-right: 5%;
     padding-bottom: 4%;
     background-color: var(--cor-fundo-geral);
-    color: var(--cor-header);
+    color: var(--cor-branca);
     transition: all 0.3s ease;
     margin-bottom: 1%;
     cursor: pointer;
@@ -661,7 +661,5 @@ footer p{
     footer p{
         font-size: 2em;
     }
-
-
 
 }
