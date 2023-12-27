@@ -327,7 +327,7 @@ article{
 
 .portifolio h2{
     font-size: 1.5em;
-    color: var(--cor-texto-geral);
+    color: var(--cor-branca);
 }
 
 #imagens{
@@ -369,13 +369,13 @@ article{
 
 .about h1{
     font-size: 2em;
-    color: #525252;
+    color: var(--cor-preto);
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .about h1 span{
-    color: #000;
+    color: var(--cor-texto-geral);
 }
 
 .about p{
