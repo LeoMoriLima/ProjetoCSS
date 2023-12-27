@@ -52,7 +52,7 @@ header{
 
 header h1{
     margin-left: 20%;
-    color: var(--cor-texto-geral);
+    color: var(--cor-branca);
     font-size: 3em;
     transition: color 0.3s ease;
     text-align: center;
@@ -61,6 +61,7 @@ header h1{
 
 header h1 span{
     color: var(--cor-texto-hover);
+    transition: all 0.3s ease;
 }
 
 header h1:hover{
@@ -68,7 +69,7 @@ header h1:hover{
     
 }
 
-header h1 span:hover{
+header h1:hover span{
     color: var(--cor-texto-geral);
 }
 
@@ -117,7 +118,7 @@ header nav a:hover{
     margin: 20%;
     margin-bottom: 10%;
     text-decoration: none;
-    color: var(--cor-texto-geral);
+    color: var(--cor-branca);
     text-align: center;
 }
 
@@ -140,7 +141,7 @@ main{
 }
 
 main h2{
-    color: var(--cor-texto-geral);
+    color: var(--cor-branca);
     font-size: 2em;
     margin-left: 10%;
     margin-bottom: 0;
@@ -160,7 +161,7 @@ main span{
 }
 
 main p{
-    color: var(--cor-texto-geral);
+    color: var(--cor-branca);
     font-size: 2em;
     margin-left: 10%;
     margin-top: 0;
@@ -202,7 +203,7 @@ article{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    font-style: var(--fonte-geral)    
 }
 
 #uibox {
@@ -361,8 +362,9 @@ article{
 .about h2{
     font-weight: bold;
     margin-left: 10%;
-    color: #777;
+    color: var(--cor-preto);
     margin-right: 10%;
+    font-size: 2em;
 }
 
 .about h1{
@@ -402,7 +404,7 @@ article{
     margin-left: 10%;
     margin-bottom: 1%;
     border-radius: 8px;
-    color: var(--cor-texto-geral);
+    color: var(--cor-branca);
     font-family: var(--fonte-geral);
 }
 
@@ -485,6 +487,10 @@ footer p{
         font-size: 4em;
     }
     
+    .portifolio h2{
+        font-size: 2.5em;
+    }
+
     .servico h2{
         font-size: 3em;
     }
@@ -547,7 +553,7 @@ footer p{
     }
 
     #menu a:hover{
-        color: var(--cor-branca);
+        color: var(--cor-texto-geral);
     }
 
     .contato form input{
@@ -556,7 +562,7 @@ footer p{
     }
 
     .about h2{
-        font-size: 1.8em;
+        font-size: 2.5em;
     }
 
     .about p{
