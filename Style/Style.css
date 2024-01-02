@@ -1,7 +1,11 @@
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
 :root{
     --fonte-geral: 'Roboto', sans-serif;
     --cor-texto-geral: #A4161A;
-    --fonte-menu:'Raleway', sans-serif;
     --fonte-rodapé:'Inconsolata', monospace;
     --cor-header: #161A1D;
     --cor-rodape: #0B090A;
@@ -206,7 +210,7 @@ article{
     font-style: var(--fonte-geral)    
 }
 
-#uibox {
+#uibox, #graphbox, #webbox {
     width: 100px;
     height: 100px;
     background-color: var(--cor-rodape);
@@ -218,56 +222,10 @@ article{
     border-radius: 2%;
 }
 
-#uibox h2{
+#uibox h2, #graphbox h2{
     margin-top: 30%;
     font-size: 1em;
     color: var(--cor-branca);
-}
-
-#uibox p{
-    display: none;
-    font-size: 0.8em;
-    max-width: 100%;
-    max-height: 100%;
-    color: var(--cor-branca);
-}
-
-#graphbox{
-    width: 100px;
-    height: 100px;
-    background-color: var(--cor-rodape);
-    color: var(--cor-preto);
-    text-align: center;
-    margin: 2%;
-    transition: all 0.5s ease;
-    padding: 1%;
-    border-radius: 2%;
-}
-
-#graphbox h2{
-    margin-top: 30%;
-    font-size: 1em;
-    color: var(--cor-branca);
-}
-
-#graphbox p{
-    display: none;
-    font-size: 0.8em;
-    max-width: 100%;
-    max-height: 100%;
-    color: var(--cor-branca);
-}
-
-#webbox{
-    width: 100px;
-    height: 100px;
-    background-color: var(--cor-rodape);
-    color: var(--cor-preto);
-    text-align: center;
-    margin: 2%;
-    transition: all 0.5s ease;
-    padding: 1%;
-    border-radius: 2%;
 }
 
 #webbox h2{
@@ -276,7 +234,7 @@ article{
     color: var(--cor-branca);
 }
 
-#webbox p{
+#uibox p, #graphbox p, #webbox p{
     display: none;
     font-size: 0.8em;
     max-width: 100%;
@@ -284,35 +242,14 @@ article{
     color: var(--cor-branca);
 }
 
-#uibox:hover{
+
+#uibox:hover, #graphbox:hover, #webbox:hover{
     height: 350px;
     background-color: var(--cor-fundo-geral);
     color: var(--cor-texto-hover);
 }
 
-#uibox:hover p{
-    display: block;
-    color: var(--cor-branca);
-}
-
-#graphbox:hover{
-    height: 350px;
-    background-color: var(--cor-fundo-geral);
-    color: var(--cor-texto-hover);
-}
-
-#graphbox:hover p{
-    display: block;
-    color: var(--cor-branca);
-}
-
-#webbox:hover{
-    height: 350px;
-    background-color: var(--cor-fundo-geral);
-    color: var(--cor-texto-hover);
-}
-
-#webbox:hover p{
+#uibox:hover p, #graphbox:hover p, #webbox:hover p{
     display: block;
     color: var(--cor-branca);
 }
